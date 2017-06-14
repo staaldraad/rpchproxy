@@ -10,4 +10,5 @@ import (
 func main() {
 	utils.Init(os.Stdout, os.Stdout, ioutil.Discard, os.Stderr)
 	utils.Info.Println("welcome")
+
 }
